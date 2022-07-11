@@ -1,10 +1,11 @@
 .messageBox {
-    background: #edceff;
-    border-radius: 20px;
-    padding: 5px 20px;
-    color: #edceff;
-    display: inline-block;
-    max-width: 80%;
+  background: #edceff;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: #edceff;
+  display: inline-block;
+  max-width: 80%;
+  border: solid 2px #320050;
   }
   
   .messageText {
@@ -30,8 +31,10 @@
     display: flex;
     align-items: center;
     font-family: Helvetica;
-    color: #320050;
+    color: white;
     letter-spacing: 0.3px;
+    background-color: #320050;
+    padding: 10px;
   }
   
   .pl-10 {

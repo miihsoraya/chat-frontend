@@ -19,7 +19,9 @@ html, body {
     height: 100vh;
     align-items: center;
     background-image: linear-gradient(180deg, #320050 0%, #9c74b4 50%, #320050 100%);
-    /* background-color: #320050; */
+    background:  #320050 url("../../assets/masco2.png") no-repeat right bottom fixed;
+    background-size: 35%;
+    background-position-x: 5%;
   }
   
   .joinInnerContainer {

@@ -1,15 +1,17 @@
 .textContainer {
   display: flex;
-  flex-direction: column;
-  margin-right: 60px;
-  color: #edceff;
-  height: 50%;
-  justify-content: space-between;
-  border: solid 4px #edceff;
-  padding-left: 4vh;
-  padding-right: 4vh;
-  border-radius: 30px;
-  background-color: #320050;
+    flex-direction: column;
+    margin-right: 1px;
+    color: #edceff;
+    height: 100%;
+    justify-content: flex-start;
+    border: solid 4px #edceff;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background-color: #320050;
+    background: #320050 url("../../assets/masco1.png") no-repeat right bottom fixed;
+    background-size: 13%;
+    background-position-x: 5%;
   }
 
   .textContainer .logo {
@@ -22,7 +24,7 @@
   .textContainer .logo img{
     margin-top:10px;
       width: 30vh;
-      margin-bottom: 0vh;
+      margin-bottom: 5vh;
   }
 
   .online {
@@ -41,10 +43,12 @@
     display: flex;
     align-items: center;
     font-size: 1rem;
+    padding-bottom: 20px;
   }
   
   .activeContainer img {
     padding-left: 10px;
+    width: 25px;
   }
   
   .textContainer h1 {

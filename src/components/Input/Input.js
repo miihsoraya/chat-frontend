@@ -14,6 +14,6 @@ export const Input = ({ message, setMessage, sendMessage }) => (
     onChange={(e) => setMessage(e.target.value)} 
     onKeyPress={e => e.key === 'Enter' ? sendMessage(e) : null }
     />
-    <button className="sendButton" onClick={(e) => sendMessage(e)}><div><i className="fa fa-spin fa-chevron-circle-right" /></div></button>
+    <button className="sendButton" onClick={(e) => sendMessage(e)}><div><i className="fa fa-chevron-circle-right" /></div></button>
     </form>
 );
