@@ -6,7 +6,8 @@ import './Input.css';
 
 export const Input = ({ message, setMessage, sendMessage }) => (
     <form className="form">
-    <input 
+    <textarea
+    id='editor_back'
     className="input" 
     type="text" 
     placeholder="Escreva a mensagem..." 

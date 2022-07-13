@@ -15,13 +15,15 @@ export const Join = () => {
         <img src={img1}/>
         </div>
         <div>
-          <input placeholder="Coloque seu nome" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
+        <h3>Usuário</h3>
+          <input placeholder="Coloque seu nome" id='usr' className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
         </div>
         <div>
+        <h3 className='sala'>Sala</h3>
           <input placeholder="Nome da sala" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} />
         </div>
         <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-          <button className={'button mt-20'} type="submit">ENTRAR</button>
+          <button className={'button mt-20'} type="button">ENTRAR</button>
         </Link>
       </div>
     </div>

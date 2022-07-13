@@ -5,6 +5,8 @@
     flex: auto;
     background-color: #edceff;
     background: #edceff url("../../assets/fundo5.jpg") no-repeat right top fixed;
+    background-size: cover;
+    position: relative;
 
 }
 /* width */

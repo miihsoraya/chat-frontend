@@ -6,12 +6,18 @@
   height: 10vh;
   }
   
+  
   .input {
     border: none;
     border-radius: 0;
     width: 100%;
     font-size: 1em;
     padding-left: 20px;
+    padding-right: 20px;
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em;
+    font-weight: 600;
   }
   
   input:focus, textarea:focus, select:focus{

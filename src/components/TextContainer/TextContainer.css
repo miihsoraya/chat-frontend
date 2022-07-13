@@ -35,19 +35,45 @@
   
   .activeContainer {
     display: flex;
-    align-items: center;
-    margin-bottom: 50%;
+    align-items: flex-start;
+    max-height: 62vh;
+    height: 32vh;
+    overflow-y: auto;
+    font-family: 'Nunito', sans-serif;
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #edceff; 
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #edceff; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #edceff; 
+}
   
   .activeItem {
     display: flex;
     align-items: center;
-    font-size: 1rem;
-    padding-bottom: 20px;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
   }
   
   .activeContainer img {
-    padding-left: 10px;
+    padding-right: 10px;
     width: 25px;
   }
   
@@ -57,7 +83,14 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    font-family: 'Nunito', sans-serif;
   }
+
+  .textContainer h2 {  
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+  }
+
   
   @media (max-width: 425px) and (max-width: 1200px) {
     .textContainer {
